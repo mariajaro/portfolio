@@ -1,6 +1,6 @@
 # Portfolio 1
 
-![logo](images/)
+![logo](images/tu)
 
 
 ## Description
@@ -24,7 +24,7 @@ In this Course Assignment we had to build a portfolio webpage that lists these 3
 1. Clone the repo:
 
 ```bash
-git@github.com:mariajaro/project-exam-1.git
+git@github.com:mariajaro/portfolio.git
 ```
 
 2. Original repo is on Noroff GitHub:
