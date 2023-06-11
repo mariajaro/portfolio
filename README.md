@@ -1,6 +1,6 @@
 # Portfolio 1
 
-![logo](images/tu)
+![logo](images/turned-gray-laptop-computer.jpg)
 
 
 ## Description
