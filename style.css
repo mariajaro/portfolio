@@ -1,0 +1,140 @@
+body {
+    font-family: 'Playfair', serif;
+    color: rgb(237, 237, 237);
+    background-color: rgb(53, 53, 53);;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Playfair', serif;
+    font-size: 60px;
+}
+
+
+h2 {
+    font-family: 'Playfair', serif;
+    font-size: 0px;
+}
+
+.welcome img {
+    width: 100%;
+}
+
+.aboutME{
+    color: rgb(237, 237, 237);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.cards_container {
+    display: flex;
+    flex-direction: column;
+    color: rgb(237, 237, 237);;
+}
+
+.card {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 0.5em;
+    margin-bottom: 2em;
+    color: rgb(237, 237, 237);
+    
+}
+.card_title {
+    font-family: 'EB Garamond', serif;
+    font-size: 1.5rem;
+    text-align: left;
+    margin: 0em;
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card_content {
+    text-align: left;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 1.5em; 
+}
+
+.buttons .cta {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-bottom: 0.5em;
+    background-color: rgb(97, 161, 181);
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.buttons .cta:hover {
+    background-color: rgb(53, 53, 53);
+}
+
+
+.about {
+    color: rgb(237, 237, 237);
+    padding: 0.5em 1em;
+    text-align: left;
+    border-radius: 10px;
+}
+
+
+
+@media only screen and (min-width: 641px) {
+
+    body, .cta {
+        font-size: 1.2rem;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    .cards_container {
+    max-width: 600px;
+    margin: auto;
+    }
+}
+
+@media only screen and (min-width: 1008px) {
+
+    body {
+        max-width: 1400px;
+        margin: auto;
+    }
+   
+    
+    .about {
+        max-width: 900px;
+        margin: auto;
+    }
+    
+    .cards_container {
+        max-width: 1400px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 2em;
+        }
+
+    .card img {
+        height: 270px;
+        object-fit: cover;
+        }
+
+    }
+
+@media only screen and (min-width: 1221px) {
+  
+    .cards_container {
+    grid-template-columns: repeat(3, 1fr);
+   
+    }
+}
