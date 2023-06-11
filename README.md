@@ -39,7 +39,7 @@ This project contains only static files, so it will pretty much run on all devic
 
 ## Contributing
 
-As this being a school project, it is not open for contributions.
+As this being my personal webpage, it is not open for contributions.
 
 ## Contact
 
